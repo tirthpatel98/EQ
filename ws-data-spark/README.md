@@ -1,6 +1,7 @@
 # Steps to run the code
 
 1. `docker-compose up -d`
-2. If docker container from the given docker-compose is used - cd tmp/data
-3. Install all the dependencies included in requirements.txt
-4. RUN : spark-submit DataSample.py
+2. `docker exec -it datamr_master_1 /bin/bash`
+3. `cd /tmp/data`
+4. `pip install -r requirements.txt`
+5. `spark-submit DataSample.py`
