@@ -1,3 +1,0 @@
-pip install rtree
-pip install geopy
-pip install pandas
